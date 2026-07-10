@@ -1,0 +1,19 @@
+{
+  "name": "SEO-ajaypipes",
+  "version": "1.9.1",
+  "description": "AI-powered blog creation and optimization engine for Claude Code, customized for Ajay Pipes (ajaypipes.com) — 30 sub-skills, 5 agents, 5-category 100-point scoring, GEO/AEO optimization.",
+  "author": {
+    "name": "captaindevv"
+  },
+  "homepage": "https://github.com/captaindevv/SEO-ajaypipes",
+  "repository": "https://github.com/captaindevv/SEO-ajaypipes.git",
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "seo",
+    "content",
+    "geo",
+    "aeo",
+    "writing"
+  ]
+}
