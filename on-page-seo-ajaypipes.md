@@ -16,7 +16,7 @@ The site runs WordPress + Yoast SEO. Yoast auto-generates a schema graph on ever
 
 `sitemap.xml` is a **static, third-party-generated file** (via xml-sitemaps.com), frozen at `lastmod: 2024-06-03` on every single URL.
 
-- **Zero 2025/2026 blog posts are in it** — the entire back half of the 100-post Blog Database, including everything in `references/used-keywords.md` published after mid-2024, is absent from the submitted sitemap.
+- **Zero 2025/2026 blog posts are in it** — the entire back half of the 102-post Blog Database, including everything in `references/used-keywords.md` published after mid-2024, is absent from the submitted sitemap.
 - **~94 of 290 URLs (32%) are junk**: 55 category archive pages, 15 paginated author-archive pages, 24 blog-pagination pages, and one URL with a live Google Ads `gclid` tracking parameter baked into it.
 - **`robots.txt` is empty** (200 OK, 0 bytes) — not blocking anything, but doesn't declare the sitemap location either.
 - **`llms.txt` does not exist** (404) — no AI-crawler-specific guidance, relevant to `blog-geo` output.
@@ -33,6 +33,6 @@ The site runs WordPress + Yoast SEO. Yoast auto-generates a schema graph on ever
 ## Mandatory additions for every Ajay blog post (on top of the engine's standard checklist)
 
 1. `FAQPage` JSON-LD if the post has an FAQ section (it should — see engine's standard FAQ requirement).
-2. At least one internal link to a specific product page with descriptive anchor text — this is the single most consequential fix on this site (see `BRAND.md`, `references/voice.md`). The engine's generic "3–5 internal links" rule is satisfied on this site only if at least one of them points to a product page, not just other blog posts.
+2. At least one internal link to a specific product page with descriptive anchor text — this is the single most consequential fix on this site (see `BRAND.md`, `references/voice.md`). This site does not use the engine's generic 3–10-link default at all: `references/linking.md` sets a higher, word-count-tiered target (10 links under 1,000 words, 13-15 under 1,500, 15-20 above), and it is satisfied only if at least one link points to a product page, not just other blog posts.
 3. Check `references/used-keywords.md` clusters before finalizing the primary keyword — three semantic-duplicate clusters already exist (~25 posts). Don't add a 26th.
 4. No competitor names, no defensive/underdog framing — see `BRAND.md` taboo list.

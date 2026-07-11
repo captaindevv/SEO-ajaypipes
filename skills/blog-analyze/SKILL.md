@@ -27,6 +27,7 @@ local files or published URLs.
 2. `references/used-keywords.md` — if the post under analysis falls in one of the 3 documented cannibalization clusters, note it in the report; a structurally cannibalized post has a ceiling on SEO Optimization and AI Citation Readiness scores regardless of on-page quality.
 3. **E-E-A-T author attribution**: the live site currently uses a generic "ajaypipes" byline with no real name/credentials (confirmed). Score this as a real, named finding ("no author E-E-A-T signal, matches site-wide pattern") rather than a one-off issue — it's systemic, see `on-page-seo-ajaypipes.md`.
 4. `BRAND.md` — flag any competitor name or underdog framing in the post as a Critical issue, separate from the standard AI-phrase detection list.
+5. `references/linking.md` — score the SEO Optimization category's internal-linking sub-score against this file's word-count tiers (10 links under 1,000 words, 13-15 under 1,500, 15-20 above), not the engine's generic default. A post meeting the generic 3-10 range but falling short of its Ajay tier should not score full marks on that sub-criterion. Also flag any external link outside `references/external-links.md`'s two approved buckets, and any video embed not from the confirmed channel in `references/youtube-links.md`.
 
 Reference documents (paths from repo root):
 - `skills/blog/references/quality-scoring.md`: full scoring checklist

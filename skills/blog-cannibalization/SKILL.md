@@ -20,9 +20,9 @@ local-only analysis (default) and DataForSEO API mode for SERP-level data.
 
 ## Ajay Pipes Context — read before scanning
 
-**ajaypipes.com is WordPress. There is no local directory of `.md`/`.mdx`/`.html` blog files to Glob** — the 100 published posts live on the CMS, not on disk. Before running Step 1 below:
+**ajaypipes.com is WordPress. There is no local directory of `.md`/`.mdx`/`.html` blog files to Glob** — the 102 published posts live on the CMS, not on disk. Before running Step 1 below:
 
-1. **Start from `references/used-keywords.md` instead of a file scan.** It already contains all 100 published primary keywords, publication dates, and URLs, plus **3 fully-documented cannibalization clusters already identified**: "best/top pipe company/brand in India" (14 posts), "best pipe(s) for plumbing/home/house" (12 posts), "which pipe is best for plumbing" (4 posts) — see the file for the full post lists. Report these first; don't re-derive them from scratch.
+1. **Start from `references/used-keywords.md` instead of a file scan.** It already contains all 102 published primary keywords, publication dates, and URLs, plus **3 fully-documented cannibalization clusters already identified**: "best/top pipe company/brand in India" (14 posts), "best pipe(s) for plumbing/home/house" (12 posts), "which pipe is best for plumbing" (4 posts) — see the file for the full post lists. Report these first; don't re-derive them from scratch. `references/internal-links.md` groups the same 102 posts by product-line topic instead of chronologically — useful when you need to see which topic categories are thin vs. saturated at a glance.
 2. If a live-URL-level check is needed (e.g. confirming a specific pair of posts still both resolve, or checking current on-page overlap), use WebFetch against the actual `ajaypipes.com/<slug>/` URLs from `used-keywords.md`, not Glob/Grep against a local directory.
 3. `references/stats.md` has the confirmed-live example: `/cpvc-full-form/` and `/cpvc-pipe-full-form/` both return HTTP 200 as of the last check — cite this as a directly-verified Critical case, not a heuristic guess.
 4. API mode (DataForSEO) still works as documented below and is the right tool for checking cannibalization against keywords Ajay does NOT yet have a published post for, or for confirming current SERP positions of the known clusters.

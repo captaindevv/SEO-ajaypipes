@@ -34,7 +34,8 @@ This deployment rewrites posts for ajaypipes.com. Read every file below before P
 6. `references/humour.md` — the personality dial: dry-professional on product/technical pages, plain-spoken warmth (never jokes/puns) on homeowner-facing posts. **Original posts on this site currently have zero personality calibration — check which register the post should land in before rewriting.**
 7. `references/stats.md` — the only source for any Ajay number
 8. `references/stories.md` / `references/opinions.md` — real material only, one each per post max, never invented
-9. `references/used-keywords.md` — **before Phase 1's cannibalization check**, cross-reference the 3 documented clusters in this file (~25 of the 100 published posts are near-duplicate "best/top pipe company/brand," "best pipe for plumbing," or "which pipe is best" intent). If the post being rewritten is in one of these clusters, the audit should say so explicitly and recommend consolidation over incremental optimization.
+9. `references/linking.md` — link-density target by word count (10 links under 1,000 words, 13-15 under 1,500, 15-20 above). A rewrite should bring an under-linked post up to its tier using `references/internal-links.md` (internal) and `references/external-links.md` (external — verified press mentions + government/standards sources only), and swap out any video embed that isn't from the confirmed Ajay channel in `references/youtube-links.md`.
+10. `references/used-keywords.md` — **before Phase 1's cannibalization check**, cross-reference the 3 documented clusters in this file (~25 of the 102 published posts are near-duplicate "best/top pipe company/brand," "best pipe for plumbing," or "which pipe is best" intent). If the post being rewritten is in one of these clusters, the audit should say so explicitly and recommend consolidation over incremental optimization.
 
 **Key references:**
 - `references/quality-scoring.md` - 5-category scoring (Content 30, SEO 25, E-E-A-T 15, Technical 15, AI Citation 15)
@@ -106,7 +107,7 @@ For 21 evidence-led optimization prompts (AI-detector test, CTR audit, schema, P
    - If present, check: lazy loading? aria-labels? noscript fallback? VideoObject schema?
 5. **Cannibalization check**:
    - Identify the post's primary keyword from title, H1, and first paragraph
-   - **First, check `references/used-keywords.md` directly** — 3 semantic-cannibalization clusters are already documented there (~25 of 100 posts): "best/top pipe company/brand in India," "best pipe(s) for plumbing/home/house," and "which pipe is best for plumbing." If this post is in one of those clusters, report it as such immediately rather than re-deriving it from scratch.
+   - **First, check `references/used-keywords.md` directly** — 3 semantic-cannibalization clusters are already documented there (~25 of 102 posts): "best/top pipe company/brand in India," "best pipe(s) for plumbing/home/house," and "which pipe is best for plumbing." If this post is in one of those clusters, report it as such immediately rather than re-deriving it from scratch.
    - Also search the blog directory for any other posts targeting the same keyword (grep headings and meta descriptions) in case a newer overlap exists outside the 3 documented clusters
    - If cannibalization found, report:
      - Which posts compete for the same keyword

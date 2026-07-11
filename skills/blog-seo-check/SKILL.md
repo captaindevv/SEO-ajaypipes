@@ -26,6 +26,7 @@ to run after writing - catches issues before publishing.
 2. `BRAND.md` — taboo phrases list; check the post's copy against it as part of this validation, not just the mechanical SEO items below.
 3. `references/used-keywords.md` — if the post's primary keyword falls in one of the 3 documented cannibalization clusters, flag it in the report even if every other check passes.
 4. `references/stats.md` — any Ajay-specific number in the post (years, certifications, test parameters) must match this file exactly.
+5. `references/linking.md` — the internal/external link count check in this skill's link audit must be evaluated against this file's word-count tiers (10 links under 1,000 words, 13-15 under 1,500, 15-20 above), not the engine's generic 3-10 default. Fail the check if external links point anywhere outside `references/external-links.md`'s two approved buckets, or if no video embed traces to `references/youtube-links.md`'s confirmed channel.
 
 ## Workflow
 

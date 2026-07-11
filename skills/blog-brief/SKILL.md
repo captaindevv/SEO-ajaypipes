@@ -21,10 +21,10 @@ impact on both Google rankings and AI citation platforms.
 
 ## Ajay Pipes Context — read before Step 1
 
-1. `references/used-keywords.md` — **check this before accepting any topic/keyword in Step 1.** 3 documented cannibalization clusters already cover ~25 of the 100 published posts ("best/top pipe company/brand," "best pipe for plumbing," "which pipe is best"). If the requested topic overlaps, say so immediately and propose either a genuinely different angle or consolidating existing posts instead of briefing a new one.
+1. `references/used-keywords.md` — **check this before accepting any topic/keyword in Step 1.** 3 documented cannibalization clusters already cover ~25 of the 102 published posts ("best/top pipe company/brand," "best pipe for plumbing," "which pipe is best"). If the requested topic overlaps, say so immediately and propose either a genuinely different angle or consolidating existing posts instead of briefing a new one.
 2. `BRAND.md` — audience, positioning, topic scope, taboo phrases. Business context for Step 1 comes from here, not generic inference.
 3. `references/stats.md` — the Statistics Research step (Step 4) should treat Ajay's own numbers as fixed inputs from this file, not something to "research" externally.
-4. `on-page-seo-ajaypipes.md` — informs the Internal Link Architecture section below: every brief must specify at least one link to a specific Ajay product page.
+4. `references/linking.md` — informs the Internal Link Architecture section below: every brief must specify the word-count-tiered link target (10 links under 1,000 words, 13-15 under 1,500, 15-20 above), including at least one link to a specific Ajay product page, pulled from `references/internal-links.md`. The External Link Strategy the brief specifies must draw only from `references/external-links.md`'s two approved buckets (verified press mentions, government/standards sources).
 
 Reference documents:
 - `references/content-templates.md`: template selection criteria

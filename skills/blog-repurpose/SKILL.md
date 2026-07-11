@@ -25,6 +25,8 @@ match platform conventions and audience expectations.
 
 Numbers reused across any platform must trace to `references/stats.md`, same rule as the source blog post.
 
+**YouTube script repurposing**: the generated script is for Ajay to produce as a new video, so there's no channel-sourcing question — but the script itself must follow the same no-competitor-comparison rule as the source post (no "here's how we beat X" framing), and if the script references or links to any existing video for context, that reference must come from `references/youtube-links.md` (Ajay's own channel), never a third-party "best pipe brand" video.
+
 **FLOW dual-surface thinking (when applicable).** When the original blog post targets a query that also surfaces in a community (Reddit thread, YouTube comment, LinkedIn discussion), repurpose for the community in a way that reinforces the blog. Cross-link both directions: the blog references the community discussion as social proof; the community post references the blog as the canonical long-form answer. This is FLOW surface 5 in action. See `skills/blog/references/flow-alignment.md` and `/blog flow win` for the dual-surface scorecard.
 
 ## Workflow

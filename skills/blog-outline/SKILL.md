@@ -27,7 +27,7 @@ competitive analysis.
 
 1. `references/used-keywords.md` — check the target keyword against the 3 documented cannibalization clusters before outlining. If it overlaps ("best/top pipe company/brand," "best pipe for plumbing," "which pipe is best"), say so before proceeding.
 2. `BRAND.md` / `VOICE.md` — topic scope and tone govern the outline's angle and heading style, not generic SERP-mirroring alone.
-3. `on-page-seo-ajaypipes.md` — the Internal Linking Zones section (Step 3 template) must include a specific Ajay product page, not just other blog posts.
+3. `references/linking.md` — the Internal Linking Zones section (Step 3 template) must mark the word-count-tiered link target (10 links under 1,000 words, 13-15 under 1,500, 15-20 above) and reserve at least one zone for a specific Ajay product page from `references/internal-links.md`, plus 2-4 zones for external links limited to `references/external-links.md`'s two approved buckets.
 
 ## Cross-reference
 

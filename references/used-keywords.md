@@ -1,13 +1,14 @@
 # Used Keywords — Ajay Pipes
 
-> Primary keywords already targeted across ajaypipes.com's 100 published blog posts (Sept 2024–Jun 2026), pulled from `SEO OS (1).xlsx` → Blog Database sheet.
+> Primary keywords already targeted across ajaypipes.com's 102 published blog posts (Sept 2024–Jul 2026), pulled from `SEO OS (1).xlsx` → Blog Database sheet, cross-checked against `Article and blogs - Sheet2.csv` (supplied 11 Jul 2026 — 2 posts, both Jul 2026, were missing from the original 100-row table and have been added below).
 > **Rule: before picking a primary keyword for a new post, check this file.** Exact-string reuse is already clean (see below) — the real risk here is *semantic* reuse, which is rampant. Read the warning section before the table.
+> **Keeping this file current**: use the `blogs-update` skill to log new posts here going forward rather than hand-appending — it also syncs `references/internal-links.md` and flags stale post-count references elsewhere in the repo.
 
 ---
 
 ## The real problem: semantic cannibalization, not exact duplicates
 
-Checked all 100 primary keywords for exact-string duplicates: **zero found.** But grouping by intent tells a different story — the blog program has been rewriting the same 2–3 questions over and over with cosmetic wording changes instead of expanding topical coverage.
+Checked all 102 primary keywords for exact-string duplicates: **zero found.** But grouping by intent tells a different story — the blog program has been rewriting the same 2–3 questions over and over with cosmetic wording changes instead of expanding topical coverage.
 
 ### Cluster 1 — "Best/Top pipe company/brand in India" (14 posts, same intent)
 
@@ -21,7 +22,7 @@ Best Water Pipes For Home · Best Pipe Companies · Best Pipes For Plumbing · B
 
 Which PVC Pipe Is Best for Plumbing? · Which Company Pipe is Best For Plumbing? · Which Pipe Is Best for Plumbing? (Practical Guide) · Which Pipe is Best For Plumbing in India
 
-**Combined, roughly a quarter of the entire 100-post archive answers some variant of "which pipe brand/company is best."** This is the highest-priority consolidation target before writing anything new in this intent — see the SEO strategy docs' cannibalization-fix priority. New posts should not add a 15th entry to Cluster 1.
+**Combined, roughly a quarter of the entire 102-post archive answers some variant of "which pipe brand/company is best."** This is the highest-priority consolidation target before writing anything new in this intent — see the SEO strategy docs' cannibalization-fix priority. New posts should not add a 15th entry to Cluster 1.
 
 ---
 
@@ -40,7 +41,7 @@ Which PVC Pipe Is Best for Plumbing? · Which Company Pipe is Best For Plumbing?
 
 ---
 
-## Full list — 100 published posts (chronological)
+## Full list — 102 published posts (chronological)
 
 | Primary Keyword | Published | Content Category | Blog URL |
 |---|---|---|---|
@@ -144,6 +145,8 @@ Which PVC Pipe Is Best for Plumbing? · Which Company Pipe is Best For Plumbing?
 | Plumbing Pipe Company in India | 22/06/2026 | Plumbing & Pipes | `/plumbing-pipe-company-in-india-choosing-reliable-solutions-for-modern-infrastructure/` |
 | PVC Pipe For Agriculture | 25/06/2026 | Plumbing & Pipes | `/pvc-pipe-for-agriculture-a-reliable-solution-for-efficient-farming-and-irrigation/` |
 | UPVC Pipe Fittings | 29/06/2026 | Plumbing & Pipes | `/upvc-pipe-fittings-a-complete-guide-to-durable-and-efficient-plumbing-solutions/` |
+| Water Tank for Home | 04/07/2026 | Plumbing & Pipes | `/water-tank-for-home-a-complete-guide-to-choosing-the-right-storage-solution/` |
+| Ajay CPVC pipes | 06/07/2026 | Plumbing & Pipes | `/ajay-cpvc-pipe-the-complete-guide-to-high-performance-plumbing-solutions/` |
 
 ---
 

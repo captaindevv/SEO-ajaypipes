@@ -34,6 +34,8 @@
 - Open with the direct answer in the first 2–3 sentences, primary keyword in the first 100 words
 - Cite exact numbers from `references/stats.md` — certifications, test parameters, design life, years — never a vague superlative alone
 - Link every post to at least one specific, relevant Ajay product page with descriptive anchor text (e.g. "Ajay's Flowline Plus CPVC range," never "click here")
+- Hit the link-density target for the post's word count from `references/linking.md` (10 links under 1,000 words, 13-15 under 1,500, 15-20 above) — pull targets from `references/internal-links.md` (internal) and `references/external-links.md` (external: 1-2 verified press mentions + 1-2 government/standards sources, never more) — relevance always wins over hitting the raw count
+- Embed video only from Ajay's own YouTube channel per `references/youtube-links.md` — never a third-party comparison/ranking video, even a high-quality one
 - Use exact product line names: Flowline Plus (CPVC), Greenline (UPVC), Drainline (SWR), Terraline (UDS), Agriline, Deepline
 - Check `references/used-keywords.md` — including the 3 known cannibalization clusters — before picking a new primary keyword
 - End commercial/product-adjacent posts with a specific CTA ("Talk to our technical team," "Request a quote," "Find your nearest dealer" — never a generic "contact us")
@@ -44,6 +46,7 @@
 - Reference SEO/competitive metrics (Authority Score, traffic, keyword rank, market share) in reader-facing content — those are internal team data only
 - Publish an informational post with zero internal link to a product page
 - Add a 15th entry to the "best/top pipe company/brand in India" cluster (see `used-keywords.md`) — that intent is already massively over-served; new content there should consolidate, not multiply
+- Link externally to anything outside the two approved buckets in `references/external-links.md` (verified press mentions, government/standards bodies) — never a competitor site, never the PR-syndication network rows in Sheet1, never an unrelated blog or affiliate site
 
 ### Taboo phrases
 unlock · leverage · empower · synergy · seamless · cutting-edge · world-class · best-in-class · industry-leading (without a fact attached) · comprehensive solution · "in today's fast-paced world" · "we pride ourselves on" · "contact us" as a standalone CTA · affordable / competitive pricing / quality service (no number attached)

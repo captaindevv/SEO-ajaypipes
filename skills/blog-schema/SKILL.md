@@ -25,7 +25,7 @@ ajaypipes.com runs WordPress + Yoast SEO, which **already auto-generates its own
 
 What to actually generate for Ajay:
 - **`FAQPage`** — the confirmed real gap. Generate this for any post with an FAQ section. This is the primary job of this skill on this site.
-- **`VideoObject`** and **`ImageObject`** — fine to generate per the normal workflow below, these don't overlap with what Yoast emits.
+- **`VideoObject`** and **`ImageObject`** — fine to generate per the normal workflow below, these don't overlap with what Yoast emits. Any `VideoObject` must correspond to a video actually embedded from Ajay's confirmed YouTube channel in `references/youtube-links.md` — never generate `VideoObject` schema for a third-party video, even if one is referenced in the draft (flag that as a content problem instead, per `BRAND.md`'s no-competitor-comparison rule).
 - **`Product`** — confirmed absent on product pages (checked `/ajay-flowline-plus-cpvc-pipes-and-fittings/` directly). Product pages are not blog posts, so this is outside the normal blog-post workflow below — if the user asks for product-page schema, generate `Product` schema using specs from `references/stats.md` (per product line), output it standalone (don't wrap it in a @graph with BlogPosting/Organization/etc., since it's not a blog post).
 
 If the user explicitly asks to audit or replace Yoast's existing schema (rather than just add what's missing), that's a different, larger task — confirm scope before proceeding, and note that Organization schema's `name` field currently reads lowercase (`"ajay industrial corporation ltd"`) if that comes up.

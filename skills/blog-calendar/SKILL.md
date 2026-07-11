@@ -22,7 +22,7 @@ authority (Google) and maintaining citation freshness (AI platforms).
 
 ## Ajay Pipes Context — read before Step 1
 
-1. **ajaypipes.com is WordPress — there's no local content directory to Glob.** For Step 1's "existing content" scan and Step 2.5's decay detection, use `references/used-keywords.md` instead (all 100 posts, primary keywords, publish dates, URLs). Its stale-sitemap note in `on-page-seo-ajaypipes.md` also matters here: the site's own sitemap can't be trusted for freshness signals since it hasn't updated since 2024-06-03 regardless of actual publish dates.
+1. **ajaypipes.com is WordPress — there's no local content directory to Glob.** For Step 1's "existing content" scan and Step 2.5's decay detection, use `references/used-keywords.md` instead (all 102 posts, primary keywords, publish dates, URLs). Its stale-sitemap note in `on-page-seo-ajaypipes.md` also matters here: the site's own sitemap can't be trusted for freshness signals since it hasn't updated since 2024-06-03 regardless of actual publish dates.
 2. **Do not schedule new posts into the 3 documented cannibalization clusters** in `references/used-keywords.md` ("best/top pipe company/brand," "best pipe for plumbing," "which pipe is best" — ~25 posts already). If Step 2's topic cluster design gravitates toward these, redirect that calendar slot to a genuine gap instead (see the confirmed keyword gaps in the SEO strategy docs — DWC pipe, agriculture pipe fittings, pvc pipe manufacturers, local/near-me pages) or to consolidating the existing cluster.
 3. `BRAND.md` — topic scope for cluster selection (in scope: the 6 product lines; out of scope: unrelated home improvement, Xtruline/XtrulinePower).
 
